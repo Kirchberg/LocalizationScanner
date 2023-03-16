@@ -58,7 +58,7 @@ struct Teplovisor: ParsableCommand {
         )
 
         // Ensure there are files in the directory
-        guard let filePaths = enumerator?.allObjects as? [URL] else {
+        guard let filePaths = enumerator?.allObjects as? [URL], !filePaths.isEmpty else {
             print("🚫 Could not find any files in \(dir.path)")
             return
         }
