@@ -3,14 +3,12 @@ on: pull_request
 
 jobs:
     build:
+
     runs-on: macos-latest
+
     steps:
-        - name: Cancel previous jobs
-        uses: styfle/cancel-workflow-action@0.6.0
-        with:
-            access_token: ${{ github.token }}
-        - uses: actions/checkout@v2
-        - name: Build
+    - uses: actions/checkout@v2
+    - name: Build
         run: swift build -v
-        - name: Run tests
+    - name: Run tests
         run: swift test -v
