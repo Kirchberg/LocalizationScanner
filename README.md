@@ -18,3 +18,6 @@ swift run LocalizationScanner [--file-extensions <file-extensions> ...] [--exclu
 - ```-e, --excluded-directories <excluded-directories>```: The directories to exclude from the search. (default: Pods, Tests, UITests, UnitTests)
 - ```-o, --output-file-name <output-file-name>```: The name of the output file. (default: output.txt)
 - ```-h, --help```: Show help information.
+
+
+keke
