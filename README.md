@@ -1,13 +1,6 @@
 # LocalizationScanner - Localization issue scanner for Apple platform projects
 
-<alt="github-repository-cover" src="https://github.com/Kirchberg/LocalizationScanner/blob/master/Media/Preview.jpg?raw=true">
-
-![Languages](https://img.shields.io/github/languages/top/Kirchberg/LocalizationScanner)
-![GitHub Repo Stars](https://img.shields.io/github/stars/Kirchberg/LocalizationScanner)
-
-LocalizationScanner is a command-line tool that helps you identify localization issues in your Apple platform projects. It scans your project files for 
-hardcoded strings and missing NSLocalizedString entries. This utility simplifies the localization process by providing an easy way to find potential 
-issues and generate a report.
+<img src="https://github.com/Kirchberg/LocalizationScanner/blob/master/Media/Preview.jpg?raw=true" alt="LocalizationScanner"/>
 
 ## 👨‍💻 Running the script
 
